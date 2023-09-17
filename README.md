@@ -46,12 +46,12 @@ Before running the Core project, ensure you have the following prerequisites:
 
 ### Database Configuration
 
-**Database Configuration**
+Database Configuration
 Ensure your MongoDB instance is running. If needed, adjust the database connection settings in app/db/database.py.
 
 ### Running the Application
 
-**Running the Application:**
+Running the Application:
 
    ```bash 
    uvicorn main:app --reload  
