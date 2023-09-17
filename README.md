@@ -39,7 +39,7 @@ Before running the Core project, ensure you have the following prerequisites:
 
 2. Install Dependencies:
 
-  Install the project dependencies using pip:
+    Install the project dependencies using pip:
   ```bash
    pip install -r requirements.txt
 
