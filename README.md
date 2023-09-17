@@ -43,6 +43,7 @@ Before running the Core project, ensure you have the following prerequisites:
    pip install -r requirements.txt
 
 3. Running the Application
+
   ```bash 
    uvicorn main:app --reload
 
