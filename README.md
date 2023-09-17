@@ -35,16 +35,16 @@ Before running the Core project, ensure you have the following prerequisites:
 
    ```bash
    git clone https://github.com/itsgemmara/SimpleFastAPIChallenge
-   cd core ```
+   cd core 
 
-2. Install Dependencies:
+2. **Install Dependencies:**
 
   ```bash
-   pip install -r requirements.txt ```
+   pip install -r requirements.txt 
 
-3. Running the Application
+3. **Running the Application:**
 
   ```bash 
-   uvicorn main:app --reload  ```
+   uvicorn main:app --reload  
 
 
