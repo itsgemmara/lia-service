@@ -9,6 +9,8 @@ Core is a FastAPI-based project that provides a simple RESTful API for managing 
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
+  - [Database Configuration](#database-configuration)
+  - [Running the Application](#running-the-application)
 
 ## Project Description
 
@@ -42,7 +44,14 @@ Before running the Core project, ensure you have the following prerequisites:
    ```bash
    pip install -r requirements.txt 
 
-3. **Running the Application:**
+### Database Configuration
+
+**Database Configuration**
+Ensure your MongoDB instance is running. If needed, adjust the database connection settings in app/db/database.py.
+
+### Running the Application
+
+**Running the Application:**
 
    ```bash 
    uvicorn main:app --reload  
