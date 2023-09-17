@@ -34,5 +34,12 @@ Before running the Core project, ensure you have the following prerequisites:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/itsgemmara/core.git
+   git clone https://github.com/itsgemmara/SimpleFastAPIChallenge
    cd core
+
+2. Install Dependencies:
+
+  Install the project dependencies using pip:
+  ```bash
+   pip install -r requirements.txt
+
