@@ -31,7 +31,7 @@ Before running the Core project, ensure you have the following prerequisites:
 
 ### Installation
 
-1. Clone this repository:
+1. **Clone this repository:**
 
    ```bash
    git clone https://github.com/itsgemmara/SimpleFastAPIChallenge
