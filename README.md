@@ -11,7 +11,8 @@ Core is a FastAPI-based project that provides a simple RESTful API for managing 
   - [Installation](#installation)
   - [Database Configuration](#database-configuration)
   - [Running the Application](#running-the-application)
-
+- [API Documentation](#api-documentation)
+- [Testing](#testing)
 ## Project Description
 
 Core is a simple FastAPI project for managing product data. It provides endpoints to perform CRUD operations on product entities, including creating, reading, updating, and deleting products. The project is built using FastAPI for API development, Beanie as the ODM for MongoDB interaction, and Motor as the MongoDB driver.
@@ -55,5 +56,17 @@ Running the Application:
 
    ```bash 
    uvicorn main:app --reload  
+   ```
+
+### API Documentation
+
+The interactive API documentation can be accessed at http://localhost:8000/docs when the application is running locally. This documentation provides detailed information about available endpoints, request and response formats, and example usage.
 
 
+### Testing
+
+To run unit tests, use the following command:
+   ```bash
+   pytest app/tests/
+
+   ```
