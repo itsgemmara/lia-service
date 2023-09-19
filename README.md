@@ -1,7 +1,7 @@
 # Core
 
 Core is a FastAPI-based project that provides a simple RESTful API for managing products. It demonstrates basic CRUD (Create, Read, Update, Delete) operations using FastAPI and Beanie ODM with MongoDB.
-
+```plaintext
 ├── app
 │   ├── api
 │   │   ├── __init__.py
@@ -27,7 +27,7 @@ Core is a FastAPI-based project that provides a simple RESTful API for managing 
 ├── README.md
 ├── requirements.txt
 └── Structure.txt
-
+```
 ## Table of Contents
 
 - [Project Description](#project-description)
