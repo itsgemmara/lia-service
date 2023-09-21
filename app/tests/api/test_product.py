@@ -158,7 +158,7 @@ class TestUpdateProductAPI:
             "price": 19.99,
             "description": "Updated description.",
         }
-        response = client.patch(f"/products/{created_product['_id']}", json=updated_data)
+        response = client.put(f"/products/{created_product['_id']}", json=updated_data)
         assert response.status_code == 200  
         updated_product = response.json()
         assert updated_product["name"] == updated_data["name"]
@@ -172,7 +172,7 @@ class TestUpdateProductAPI:
             "price": 19.99,
             "description": "Updated description.",
         }
-        response = client.patch(f"/products/{non_existent_id}", json=updated_data)
+        response = client.put(f"/products/{non_existent_id}", json=updated_data)
         assert response.status_code == 404  
 
     def test_update_product_invalid_data(self, client, created_product):
@@ -182,9 +182,9 @@ class TestUpdateProductAPI:
             "price": -5,  # Invalid: Negative price
             "description": "Updated description.",
         }
-        response = client.patch(f"/products/{created_product['_id']}", json=invalid_data)
+        response = client.put(f"/products/{created_product['_id']}", json=invalid_data)
         assert response.status_code == 400  
 
     def test_update_product_without_data(self, client, created_product):
-        response = client.patch(f"/products/{created_product['_id']}", json={})
+        response = client.put(f"/products/{created_product['_id']}", json={})
         assert response.status_code == 200

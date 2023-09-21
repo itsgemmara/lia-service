@@ -99,7 +99,7 @@ async def create_product(product: Product):
         raise HTTPException(status_code=500, detail="Internal server error")
 
 
-@router.patch("/{product_id}", response_model=Product)
+@router.put("/{product_id}", response_model=Product)
 async def patch_update_product(product_id: str, product: ProductUpdate):
 
     """Update a product by ID (partial updates)
