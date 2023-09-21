@@ -17,16 +17,23 @@ Core is a FastAPI-based project that provides a simple RESTful API for managing 
 │   ├── models
 │   │   ├── owner.py
 │   │   └── product.py
+│   ├── requirements.txt
 │   ├── tests
-│   │   ├── __init__.py
-│   │   └── test_main.py
+│   │   ├── api
+│   │   │   └── test_product.py
+│   │   └── model
+│   │       └── test_product.py
 │   └── validators
 │       ├── __init__.py
 │       ├── meli_code.py
 │       └── phone_validator.py
+├── postman_result
+│   ├── LiaServiceFastAPI.postman_test_run.json
+│   └── npm
 ├── README.md
 ├── requirements.txt
 └── Structure.txt
+
 ```
 ## Table of Contents
 

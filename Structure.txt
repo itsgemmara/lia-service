@@ -1,0 +1,31 @@
+── app
+│   ├── api
+│   │   ├── __init__.py
+│   │   ├── owner.py
+│   │   └── product.py
+│   ├── config
+│   │   └── config.py
+│   ├── db
+│   │   ├── database.py
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models
+│   │   ├── owner.py
+│   │   └── product.py
+│   ├── requirements.txt
+│   ├── tests
+│   │   ├── api
+│   │   │   └── test_product.py
+│   │   └── model
+│   │       └── test_product.py
+│   └── validators
+│       ├── __init__.py
+│       ├── meli_code.py
+│       └── phone_validator.py
+├── postman_result
+│   ├── LiaServiceFastAPI.postman_test_run.json
+│   └── npm
+├── README.md
+├── requirements.txt
+└── Structure.txt
