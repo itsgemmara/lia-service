@@ -13,4 +13,6 @@ async def start_db():
     await database.init_db()
 
 
-app.include_router(owner.owner_router, prefix="/owners", tags=["owners"])
+app.include_router(owner.router, prefix="/owners", tags=["owners"])
+
+app.include_router(product.router, prefix="/products", tags=["products"])
